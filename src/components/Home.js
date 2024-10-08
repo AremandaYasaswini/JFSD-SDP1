@@ -44,9 +44,9 @@ function Home() {
 
       <footer className="footer">
         <div className="social-links">
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
+          <a href="https://www.facebook.com/yourcompany">Facebook</a>
+          <a href="https://www.twitter.com/yourcompany">Twitter</a>
+          <a href="https://www.instagram.com/yourcompany">Instagram</a>
         </div>
       </footer>
     </div>
