@@ -1,0 +1,23 @@
+.orders-container {
+    width: 60%;
+    margin: 50px auto;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-item button {
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-item button:hover {
+    background-color: #c82333;
+  }
+  

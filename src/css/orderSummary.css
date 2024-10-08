@@ -1,0 +1,12 @@
+.order-summary {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .product-summary {
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+  }
+  

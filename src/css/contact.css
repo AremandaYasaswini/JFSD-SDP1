@@ -1,0 +1,48 @@
+/* src/css/contact.css */
+.contact-container {
+    padding: 20px;
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center horizontally */
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-section {
+    background-color: #f9f9f9; /* Light background for sections */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .section-title {
+    margin-top: 0; /* Remove default margin */
+  }
+  
+  .contact-details p {
+    margin: 10px 0; /* Space between details */
+  }
+  
+  .social-media-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .social-media-list li {
+    margin: 10px 0; /* Space between list items */
+  }
+  
+  .social-media-list a {
+    color: #8B5B29; /* Earthy color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-media-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
