@@ -71,21 +71,21 @@ function Home() {
       <footer className="footer">
         <div className="social-media-container">
           <div className="social-media-icon">
-            <a onClick={() => handleSocialLink('facebook')} className="social-link">
+            <button onClick={() => handleSocialLink('facebook')} className="social-link">
               <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />
-            </a>
+            </button>
             <p>Facebook</p>
           </div>
           <div className="social-media-icon">
-            <a onClick={() => handleSocialLink('twitter')} className="social-link">
+            <button onClick={() => handleSocialLink('twitter')} className="social-link">
               <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
-            </a>
+            </button>
             <p>Twitter</p>
           </div>
           <div className="social-media-icon">
-            <a onClick={() => handleSocialLink('instagram')} className="social-link">
+            <button onClick={() => handleSocialLink('instagram')} className="social-link">
               <FontAwesomeIcon icon={faInstagram} className="instagram-icon" />
-            </a>
+            </button>
             <p>Instagram</p>
           </div>
         </div>
