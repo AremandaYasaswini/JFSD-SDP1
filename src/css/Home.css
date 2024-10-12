@@ -156,6 +156,8 @@ nav ul li a:hover {
       margin-right: 10px; /* Reduced margin for smaller screens */
   }
 }
+
+/* Social Media Icon Styles */
 .social-media-container {
   display: flex;
   justify-content: center;
@@ -164,30 +166,46 @@ nav ul li a:hover {
 }
 
 .social-media-icon {
-  text-align: center; /* Center align text */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align text and icon */
+  text-align: center; 
 }
 
 .social-media-icon a {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit color from parent */
+  border: none; /* Remove any border */
+  padding: 0; /* Remove any padding */
+  background: none; /* Ensure no background color */
+}
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+  font-size: 2.5rem; /* Size of the icon */
 }
 
 .facebook-icon {
   color: #3b5998; /* Facebook blue */
-  font-size: 2.5rem; /* Size of the icon */
 }
 
 .twitter-icon {
   color: #1da1f2; /* Twitter blue */
-  font-size: 2.5rem;
 }
 
 .instagram-icon {
   color: #c32aa3; /* Instagram pink */
-  font-size: 2.5rem;
 }
 
 .social-media-icon p {
   margin-top: 8px; /* Space between icon and text */
   font-weight: bold; /* Bold text for the app name */
+  margin-bottom: 0; /* Remove any extra margin below */
+}
+
+/* Remove unwanted focus outlines */
+.social-media-icon a:focus {
+  outline: none;
+  box-shadow: none; /* Remove focus box-shadow */
 }
