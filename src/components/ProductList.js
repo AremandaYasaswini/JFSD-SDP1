@@ -85,10 +85,10 @@ const productData = {
   nuts: [
     { name: "Cashews", price: "₹225", image: n1 },
     { name: "Almonds", price: "₹262.50", image: n2 },
-    { name: "Peanuts", price: "₹112.50", image: n4 },
-    { name: "Walnuts", price: "₹300", image: n5 },
-    { name: "Pistachios", price: "₹337.50", image: n6 },
-    { name: "Hazelnuts", price: "₹375", image: n3 },
+    { name: "Peanuts", price: "₹112.50", image: n3 },
+    { name: "Walnuts", price: "₹300", image: n6 },
+    { name: "Pistachios", price: "₹337.50", image: n4 },
+    { name: "Hazelnuts", price: "₹375", image: n5 },
   ],
 };
 
